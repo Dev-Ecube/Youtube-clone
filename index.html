@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>YouTube Clone</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-bar">
+        <div class="left-nav">
+          <button><i class="fas fa-bars fa-xl"></i></button>
+          <div class="youTube-icon">
+            <img
+              src="./img/icons/youtubelogos.png"
+              alt="youTube-icon"
+              class="img"
+            />
+          </div>
+        </div>
+
+        <div class="center-nav">
+          <input type="text" placeholder="Search" />
+          <button class="search-icon">
+            <a href="#"><i class="fas fa-search fa-xl"></i></a>
+          </button>
+          <button class="voice-icon">
+            <i class="fa-solid fa-microphone fa-lg"></i>
+          </button>
+        </div>
+
+        <div class="right-nav">
+          <button class="search-icon">
+            <!-- <a href="#"><i class="fas fa-search fa-lg"></i></a> -->
+          </button>
+
+          <button class="voice-icon">
+            <i class="fa-solid fa-microphone"></i>
+          </button>
+
+          <button>
+            <i class="fa-solid fa-video"></i>
+          </button>
+
+          <button>
+            <i class="fa-solid fa-bell"></i>
+          </button>
+
+          <div class="profile-img">
+            <img src="./images/img1.jpg" alt="" class="profile-pics" />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="main-container">
+        <!-- main-content -->
+        <aside class="aside">
+          <div class="side">
+            <div class="home">
+              <i class="material-icons">home</i>
+              <!-- <i class="fas fa-home"></i> -->
+              <span class="">Home</span>
+            </div>
+            <div class="side-content">
+              <i class="material-icons">subscriptions</i>
+              <!-- <i class="fas fa-history"></i> -->
+              <span class="">Subcriptions</span>
+            </div>
+            <div class="side-content">
+              <i class="material-icons">local_fire_department</i>
+              <span class="">Trending</span>
+            </div>
+            <div class="side-content none">
+              <i class="material-icons">watch_later</i>
+              <span>Watch Later</span>
+            </div>
+          </div>
+          <div class="side hide">
+            <div class="side-content">
+              <i class="material-icons">library_add_check</i>
+              <span>Library</span>
+            </div>
+            <div class="side-content">
+              <i class="material-icons">history</i>
+              <span>History</span>
+            </div>
+            <div class="side-content">
+              <i class="material-icons">play_arrow</i>
+              <span>Your Videos</span>
+            </div>
+            <div class="side-content">
+              <i class="material-icons">watch_later</i>
+              <span>Watch Later</span>
+            </div>
+            <div class="side-content">
+              <i class="material-icons">thumb_up</i>
+              <span>Liked Video</span>
+            </div>
+          </div>
+          <div class="side hide">
+            <h5 class="p-5">Explore</h5>
+            <div class="side-content">
+              <i class="material-icons">library_add_check</i>
+              <span>Library</span>
+            </div>
+            <div class="side-content">
+              <i class="material-icons">history</i>
+              <span>History</span>
+            </div>
+            <div class="side-content">
+              <i class="material-icons">play_arrow</i>
+              <span>Your Videos</span>
+            </div>
+            <div class="side-content">
+              <i class="material-icons">watch_later</i>
+              <span>Watch Later</span>
+            </div>
+            <div class="side-content">
+              <i class="material-icons">thumb_up</i>
+              <span>Liked Video</span>
+            </div>
+          </div>
+        </aside>
+        <section class="content-container">
+          <!-- list/button section -->
+          <ul class="list">
+            <li class="all"><a href="#">all</a></li>
+          </ul>
+          <div class="video-content-container"></div>
+        </section>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
